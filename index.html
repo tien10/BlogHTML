@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>HTML</title>
+	</head>
+	<body>
+		<a href="blog.html">Go to blog</a>
+		<!-- Paragraph -->
+		<p>
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+		</p>
+		<p>
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+		</p>
+
+		<!-- Table -->
+		<table>
+			<thead>
+				<tr>
+					<th>Ten</th>
+					<th>Tuoi</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>Tien</td>
+					<td>22</td>
+				</tr>
+				<tr>
+					<td>Nguyen Chi Hau</td>
+					<td>32</td>
+				</tr>
+				<tr>
+					<td>Huynh Viet Cuong</td>
+					<td>42</td>
+				</tr>
+			</tbody>
+		</table>
+
+		<br>
+		<hr>
+		<br>
+
+		<!-- Form -->
+		<form action="process.php" method="POST">
+			<div>
+				<label>Ho</label>
+				<input type="text" name="ho" placeholder="Nhap ho">
+			</div>
+			<br>
+			<div>
+				<label>Ten</label>
+				<input type="text" name="ten">
+			</div>
+			<br>
+			<div>
+				<label>Email</label>
+				<input type="email" name="email">
+			</div>
+			<br>
+			<div>
+				<label>Message</label>
+				<textarea name="message"></textarea>
+			</div>
+			<br>
+			<div>
+				<label>Gioi Tinh</label>
+				<select name="gioiTinh">
+					<option value="nam">Nam</option>
+					<option value="nu">Nu</option>
+					<option value="khac">Khac</option>
+				</select>
+			</div>
+			<br>
+			<div>
+				<label>Tuoi</label>
+				<input type="number" name="tuoi" value="30">
+			</div>
+			<br>
+			<div>
+				<label>Ngay Sinh</label>
+				<input type="date" name="ngaySinh">
+			</div>
+			<br>
+			<input type="submit" name="submit" value="Submit">
+		</form>
+	</body>
+</html>
